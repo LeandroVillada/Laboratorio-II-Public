@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/win10/onedrive - frgp.utn.edu.ar/primer cuatrimestre/laboratorio 1/trabajos practicos/laboratorio ii - 2022/09-15/source.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e47ba5b2038e3d022374cce0b78a40b726d68992c659d934eccc44d55f1c60c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/win10/onedrive - frgp.utn.edu.ar/primer cuatrimestre/laboratorio 1/trabajos practicos/laboratorio ii - 2022/09-15/venta.h"
+          },
+          "hashes": {
+            "sha-256": "99c03f9b5e1396e0e8110d1815b4d930575e578dfc072394563accd953e18b71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/win10/onedrive - frgp.utn.edu.ar/primer cuatrimestre/laboratorio 1/trabajos practicos/laboratorio ii - 2022/09-15/archivoventas.h"
+          },
+          "hashes": {
+            "sha-256": "2f65edd0d60aab847464b349459376e7a0981b89da4580b580acd8d1760622b9"
+          }
+        }
+      ]
+    }
+  ]
+}
