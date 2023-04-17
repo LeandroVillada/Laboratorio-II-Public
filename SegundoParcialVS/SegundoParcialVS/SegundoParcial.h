@@ -1,4 +1,6 @@
 #pragma once
+#include "Funciones.h"
+
 class SegundoParcial
 {
 public:
